@@ -10,4 +10,4 @@ deploy:
   file: "testi"
   skip_cleanup: true
   on:
-    tags: true
+    branch: master
