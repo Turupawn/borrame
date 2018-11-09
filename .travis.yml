@@ -1,7 +1,7 @@
 deploy:
   provider: releases
   api_key: token
-  file: "testi"
+  file: "test.cpp"
   skip_cleanup: true
   on:
     tags: true
