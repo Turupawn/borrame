@@ -1,9 +1,13 @@
 language: c++
 
+script:
+  - make
+  - ls
+
 deploy:
   provider: releases
   api_key: "${token}"
-  file: "test.cpp"
+  file: "testi"
   skip_cleanup: true
   on:
     tags: true
