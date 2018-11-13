@@ -2,6 +2,6 @@
 
 int main()
 {
-  std::cout<<"Hello, huh?"<<std::endl;
+  std::cout<<"Hello, huh??"<<std::endl;
   return 0;
 }
