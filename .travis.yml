@@ -8,8 +8,9 @@ deploy:
   provider: releases
   api_key: "${token}"
   file:
-    - if [[ "$TRAVIS_OS_NAME" != "osx" ]]; then "testi"; fi
-    - if [[ "$TRAVIS_OS_NAME" != "osx" ]]; then "testa"; fi
+    - "testi"
+    - "testa"
   skip_cleanup: true
   on:
     tags: true
+    condition: $TRAVIS_OS_NAME != "osx"
