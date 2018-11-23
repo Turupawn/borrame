@@ -7,7 +7,9 @@ script:
 deploy:
   provider: releases
   api_key: "${token}"
-  file: "testi"
+  file:
+    - "testi"
+    - "testa"
   skip_cleanup: true
   on:
     tags: true

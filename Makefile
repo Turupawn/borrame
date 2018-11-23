@@ -5,3 +5,4 @@ LIB_PATH = .
 
 all: test.cpp
 	$(CC) $(CFLAGS) test.cpp -o testi -I $(INCLUDE_PATH) -L $(LIB_PATH) -Wl,-rpath .
+	$(CC) $(CFLAGS) test.cpp -o testa -I $(INCLUDE_PATH) -L $(LIB_PATH) -Wl,-rpath .
